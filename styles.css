@@ -1,0 +1,128 @@
+
+ /* Estilos generales */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6db4b3; /* Fondo pastel suave */
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #71f8f1; /* Color pastel de repostería */
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #F7DC6F; /* Color más claro al pasar el mouse */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+h4{
+text-align: center;
+
+
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Estilos del contenedor principal */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos para los productos (contenedores) */
+.product {
+    background-color: hsl(314, 77%, 83%); /* Color pastel rosa */
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+    color: #AF7AC5; /* Color morado pastel */
+}
+
+button{
+padding: 10px;
+background-color: rgb(250, 215, 246);
+
+color: #9e61ca;
+border-color: hsl(314, 77%, 83%);
+border-radius: 5px;
+
+
+}
+.nose{
+text-align: center;
+color: #fff;
+
+
+}
+
+.iimg{
+width: 100%;
+
+
+}
+/* Footer */
+footer {
+    background-color: #71f8f1;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Media Queries para hacer el diseño responsivo */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
